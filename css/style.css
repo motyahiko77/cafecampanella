@@ -48,15 +48,7 @@ img {
     animation: loading 200ms linear 1ms infinite normal;
 }
 
-/* @keyframes loading {
-    0% {
-        transform: rotate(0deg);
-    }
 
-    100% {
-        transform: rotate(360deg);
-    }
-} */
 
 
 #headerWrapper {
@@ -112,7 +104,6 @@ ul li a {
 .mainvisual {
     max-width: 1280px;
     height: auto;
-    /* background: url(../image/TopImg.png) no-repeat center / contain; */
     position: relative;
 }
 
@@ -248,7 +239,7 @@ ul li a {
 }
 
 .MENU {
-    background: url(/image1/menuBack.webp), #FFF3B8 50% / cover no-repeat;
+    background: url(../image1/menuBack.webp), #FFF3B8 50% / cover no-repeat;
     border-radius: 30px;
 
 }
@@ -798,13 +789,13 @@ footer {
     }
 
     .menu-List01 {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     .menu-List02 {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
