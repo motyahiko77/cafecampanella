@@ -801,6 +801,10 @@ footer {
         align-items: center;
     }
 
+    .MENU h3{
+        font-size: 14px;
+    }
+
     .menuItem1,
     .menuItem2,
     .menuItem3 {
