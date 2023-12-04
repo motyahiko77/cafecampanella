@@ -272,13 +272,14 @@ ul li a {
     justify-content: space-around;
     margin-bottom: 2rem;
 }
+
 .menu-List02 {
     display: flex;
     justify-content: space-around;
     margin-bottom: 2rem;
 }
 
-.menu_Wrapper  {
+.menu_Wrapper {
 
     display: flex;
     flex-direction: column;
@@ -752,7 +753,7 @@ footer {
         margin-top: 1rem;
     }
 
-    .text01 h3{
+    .text01 h3 {
         font-size: 16px;
         padding: 1rem;
     }
@@ -766,6 +767,7 @@ footer {
     }
 
     .text03 p {
+        font-size: 14px;
         padding: 2rem;
     }
 
@@ -794,6 +796,7 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     .menu-List02 {
         width: 80%;
         display: flex;
@@ -801,7 +804,7 @@ footer {
         align-items: center;
     }
 
-    .MENU h3{
+    .MENU h3 {
         font-size: 14px;
     }
 
