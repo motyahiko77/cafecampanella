@@ -138,6 +138,7 @@ ul li a {
     letter-spacing: 3.2px;
     margin: 0 auto;
     margin-top: 4rem;
+    margin-bottom: 2rem;
     width: fit-content;
     border-bottom: 2px solid #942343;
 }
@@ -181,7 +182,7 @@ ul li a {
 .contentBOX p {
     color: #483939;
     line-height: normal;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 
 .About_img {
@@ -197,6 +198,7 @@ ul li a {
 .textBOX {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .text02 {
@@ -205,7 +207,7 @@ ul li a {
     flex-direction: column;
     text-align: center;
     gap: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .text02 h3 {
@@ -754,7 +756,7 @@ footer {
     }
 
     .text01 h3 {
-        font-size: 16px;
+        font-size: 14px;
         padding: 1rem;
     }
 
