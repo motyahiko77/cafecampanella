@@ -112,7 +112,7 @@ ul li a {
     color: var(--moji, #BD4848);
     text-align: center;
     text-shadow: 0px 1px 2px #FFF3B8;
-    font-family: Yusei Magic;
+    font-family: "Yusei Magic";
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
@@ -130,7 +130,7 @@ ul li a {
 .ABOUT h2 {
     text-align: center;
     color: #942343;
-    font-family: Yusei Magic;
+    font-family: "Yusei Magic";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -169,7 +169,7 @@ ul li a {
 }
 
 .text01 h3 {
-    font-family: Yusei Magic;
+    font-family: "Yusei Magic";
     font-size: 20px;
     color: #483939;
     border-radius: 10px;
@@ -222,7 +222,7 @@ ul li a {
 .text02 p {
     color: #483939;
     text-align: center;
-    font-family: Noto Sans Javanese;
+    font-family: "Noto Sans Javanese";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -232,7 +232,7 @@ ul li a {
 .text03 {
     color: #483939;
     text-align: center;
-    font-family: Noto Sans Javanese;
+    font-family: "Noto Sans Javanese";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -249,7 +249,7 @@ ul li a {
 .MENU h2 {
     text-align: center;
     color: #942343;
-    font-family: Yusei Magic;
+    font-family: "Yusei Magic";
     font-size: 28px;
     font-style: normal;
     font-weight: 400;
@@ -317,7 +317,7 @@ ul li a {
 .MENU h3 {
     color: #942343;
     text-align: center;
-    font-family: Noto Sans Javanese;
+    font-family: "Noto Sans Javanese";
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -377,7 +377,7 @@ ul li a {
 .price {
     color: #483939;
     text-align: center;
-    font-family: Noto Sans Javanese;
+    font-family: "Noto Sans Javanese";
     font-size: 16px;
     font-weight: bold;
     padding: 1rem;
@@ -386,7 +386,7 @@ ul li a {
 .text {
     color: #483939;
     font-size: 14px;
-    font-family: Noto Sans Javanese;
+    font-family: "Noto Sans Javanese";
     text-align: left;
     line-height: normal;
     letter-spacing: 0.16px;
@@ -395,7 +395,7 @@ ul li a {
 .NEWS h2 {
     color: #942343;
     text-align: center;
-    font-family: Noto Sans Javanese;
+    font-family: "Noto Sans Javanese";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -410,7 +410,7 @@ ul li a {
 .NEWS h3 {
     color: #942343;
     text-align: center;
-    font-family: Noto Sans Javanese;
+    font-family: "Noto Sans Javanese";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -455,7 +455,7 @@ ul li a {
 .news-text p {
     color: #483939;
     text-align: center;
-    font-family: M PLUS 1;
+    font-family: "M PLUS 1";
     font-size: 18spx;
     font-style: normal;
     font-weight: 700;
@@ -497,7 +497,7 @@ ul li a {
     display: inline;
     text-align: center;
     color: #942343;
-    font-family: Yusei Magic;
+    font-family: "Yusei Magic";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
@@ -570,7 +570,7 @@ ul li a {
 .accessText h3 {
     color: #483939;
     text-align: center;
-    font-family: M PLUS 1;
+    font-family: "M PLUS 1";
     font-size: 20px;
     font-style: normal;
     font-weight: 900;
@@ -580,7 +580,7 @@ ul li a {
 
 .accessText p {
     color: #483939;
-    font-family: Yusei Magic;
+    font-family: "Yusei Magic";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -601,7 +601,7 @@ ul li a {
 .SNS h2 {
     text-align: center;
     color: #942343;
-    font-family: Yusei Magic;
+    font-family: "Yusei Magic";
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
