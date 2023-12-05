@@ -4,7 +4,7 @@ body {
     max-width: 1280px;
     margin: 0 auto;
     color: 483939;
-    font-family: "Yusei Magic, Noto Sans JP, M PLUS 1, ヒラギノ角ゴ ProN W3", HiraKakuProN-W3, 游ゴシック, "Yu Gothic", メイリオ, Meiryo, Verdana, Helvetica, Arial, sans-serif;
+    font-family: "Yusei Magic, Noto Sans JP, M PLUS 1, ヒラギノ角ゴ ProN W3", "Yu Gothic", Verdana, Helvetica, Arial, sans-serif;
     list-style: none;
 
 }
