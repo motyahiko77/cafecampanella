@@ -106,8 +106,8 @@ ul li a {
     position: relative;
 }
 
-.mainvisualImg {
-    animation: fadein 3s ease-out forwards;
+.animeImg {
+    animation: fadein 5s ease-out forwards;
 }
 
 @keyframes fadein {
