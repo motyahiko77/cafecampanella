@@ -1,52 +1,32 @@
-const pagetop_btn = document.querySelector(".footr_logo");
 
-// .pagetopをクリックしたら
-pagetop_btn.addEventListener("click", scroll_top);
 
-// ページ上部へスムーズに移動
-function scroll_top() {
-    window.scroll({ top: 0, behavior: "smooth" });
-}
 
-// スクロールされたら表示
-window.addEventListener("scroll", scroll_event);
-function scroll_event() {
-    if (window.pageYOffset > 100) {
-        pagetop_btn.style.opacity = "1";
-    } else if (window.pageYOffset < 100) {
-        pagetop_btn.style.opacity = "0";
-    }
-}
 
-// function loadedPage() {
-//     const loadingID = document.getElementById(".loading");
-//     loadingID.classList.add("loaded");
-// }
 
-// if (!sessionStorage.getItem('visited')) {
-//     sessionStorage.setItem('visited', 'first');
-//     window.addEventListener('load', function () {
-//         setTimeout(loadedPage, 2000);
-//     });
-//     setTimeout(loadedPage, 5000);
-// } else {
-//     loadedPage();
-// }
 
 // ローディングアニメーション
 const loading = document.querySelector('.loading');
+const anime = document.querySelector('.imageMain');
+
 
 window.addEventListener('load', () => {
     setTimeout(function () {
         loading.classList.add('hide');
     }, 1500);
+    
 });
 
+
 // 対象の要素を取得
+window.addEventListener("load", function () {
+    // 実行したい処理
+
+    anime.classList.add('animeImg');
+});
 const target = document.getElementById('jump');
 
 //　要素がビューポート内に入っているかどうか確認してクラスと付け外しを行う関数
-function observation01(){
+function observation01() {
     // 要素の位置情報を取得
     const targetRect = target.getBoundingClientRect();
 
@@ -67,7 +47,7 @@ function observation01(){
 const target02 = document.getElementById('yokoyure');
 
 //　要素がビューポート内に入っているかどうか確認してクラスと付け外しを行う関数
-function observation02(){
+function observation02() {
     // 要素の位置情報を取得
     const targetRect02 = target02.getBoundingClientRect();
 
@@ -84,3 +64,23 @@ function observation02(){
 // スクロールイベントを追加
 window.addEventListener('scroll', observation01);
 window.addEventListener('scroll', observation02);
+
+const pagetop_btn = document.querySelector(".footr_logo");
+
+// .pagetopをクリックしたら
+pagetop_btn.addEventListener("click", scroll_top);
+
+// ページ上部へスムーズに移動
+function scroll_top() {
+    window.scroll({ top: 0, behavior: "smooth" });
+}
+
+// スクロールされたら表示
+window.addEventListener("scroll", scroll_event);
+function scroll_event() {
+    if (window.pageYOffset > 100) {
+        pagetop_btn.style.opacity = "1";
+    } else if (window.pageYOffset < 100) {
+        pagetop_btn.style.opacity = "0";
+    }
+}

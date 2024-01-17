@@ -1,8 +1,7 @@
 @charset "UTF-8";
 
 body {
-    max-width: 1280px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     color: 483939;
     font-family: "Yusei Magic, Noto Sans JP, M PLUS 1, ヒラギノ角ゴ ProN W3", "Yu Gothic", Verdana, Helvetica, Arial, sans-serif;
     list-style: none;
@@ -107,8 +106,8 @@ ul li a {
     position: relative;
 }
 
-.mainvisualImg {
-    animation: fadein 3s ease-out forwards;
+.animeImg {
+    animation: fadein 5s ease-out forwards;
 }
 
 @keyframes fadein {
@@ -678,7 +677,7 @@ ul li a {
 
 
 footer {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     height: 220px;
     background: #942343;
 
